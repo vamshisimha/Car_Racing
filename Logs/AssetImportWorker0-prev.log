@@ -1,0 +1,105 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22000.282; Version 2009; 64bit' Language: 'en' Physical Memory: 8059 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/bsp/clg/unity/MINI PROJECT 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7200
+Successfully changed project path to: D:/bsp/clg/unity/MINI PROJECT 2
+D:/bsp/clg/unity/MINI PROJECT 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 95.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/bsp/clg/unity/MINI PROJECT 2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004003 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.536 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.811 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1883 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 3.158900 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.111700 ms MarkObjects: 2.648300 ms  DeleteObjects: 0.125000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/scenes/losescene.unity
+  artifactKey: Guid(974d32916f13fe84c85b4281ea270103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scenes/losescene.unity using Guid(974d32916f13fe84c85b4281ea270103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f1153595695d67dcad97665ccb4d52') in 0.048939 seconds
+  Import took 0.168994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/scenes/WIm scene.unity
+  artifactKey: Guid(52d3cc27a70bb2549a5d289ea6a817cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scenes/WIm scene.unity using Guid(52d3cc27a70bb2549a5d289ea6a817cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8da6bb0c0190cd7f3750fd9df8fde54') in 0.028783 seconds
+  Import took 0.063596 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.083991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.558 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 101.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.074700 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.642600 ms  DeleteObjects: 0.090900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
